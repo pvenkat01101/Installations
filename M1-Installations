@@ -9,6 +9,12 @@ Softwares
 
 IDE
 1. Intellij
+	Option + control + H  —> to open call hierarchy
+	Option + command + B —> to open implementation
+	command+shift +f -> to search every file
+
+	https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html#choose-keymap
+
 2. Eclipse
 3. Visual studio
 
