@@ -1,0 +1,107 @@
+			                INSTALLATIONS MAC
+
+Softwares
+
+### Technologies ###
+1. Java
+2. Angular
+
+
+IDE
+1. Intellij
+2. Eclipse
+3. Visual studio
+
+
+DB
+1. mysql
+2. postgres
+3. Dbeaver
+
+Cloud
+1. AWS
+2. Azure
+
+VCS
+1. Git (pre-installed with macOS)
+
+## Build Tools ##
+1. Maven
+brew install gradle
+brew install maven
+
+Download and unzip(cmd+up arrow) 
+
+
+—————————————————————————————————————————
+Path setup: temporarity to terminal
+-> sudo nano ~/.bash_profile
+export M2_HOME="/Users/venkatreddy/Venkat/Softwares/apache-maven-3.6.3"
+PATH="${M2_HOME}/bin:${PATH}"
+export PATH
+Source .bash_profile —> to relaunch terminal
+
+sudo nano ~/.bash_profile
+JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/"
+source  ~/.bash_profile
+
+
+Path setup: permanent path
+
+
+1. Check the shell type (bash or zsh) —>
+
+nano ~/.zshenv
+
+export CONFIG_DIR=$(/Users/venkatreddy/Venkat/wolken/issuetracker/config)
+
+source ~/.zshenv
+Chmod 77 configuration.properties
+
+sudo -s
+source /etc/bash.bashrc
+
+* 		Open Terminal, then choose Terminal > Preferences.
+* 		From the General pane, select ”Command (complete path).”
+* 		In the field provided, enter one of the shell paths listed in /etc/shells, such as /bin/zsh, /bin/bash, /bin/csh, /bin/dash, /bin/ksh, /bin/sh, or /bin/tcsh.
+—————————————————————————————————————
+Command line tool
+1. Homebrew
+
+a)script to download homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”
+b) set environment properties 
+eval $(/opt/homebrew/bin/brew shellenv)
+
+brew —version
+—————————————————————
+
+	
+Ngrox  :  https://dashboard.ngrok.com/get-started/setup
+
+— pvenkat0110@gmail.com	 : VenkatReddy7
+
+cd /Users/venkatreddy/Downloads
+— command - ./ngrok http 8080
+—————————————————————————————————
+
+
+### M1 Keyboard shortcuts ###
+
+Shift + cmd + 5   —> Screen recording
+Shift + cmd +3    —> Screen shot
+
+
+
+Ports listening :  sudo lsof -i -P | grep LISTEN
+Kill port : sudo kill -9 <PID>
+
+sudo lsof -i -n -P | grep TCP.  -> to identify ports
+
+
+
+
+
+
+
+
