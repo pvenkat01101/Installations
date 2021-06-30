@@ -98,6 +98,12 @@ Kill port : sudo kill -9 <PID>
 
 sudo lsof -i -n -P | grep TCP.  -> to identify ports
 
+#### Shortcuts ####
+Nano  esdissuetracker.log  
+Vim  esdissuetracker.log 
+GG - start of the file
+Shf +gg — end of the file
+tail -f esdissuetracker.log  — to tail the file
 
 
 
